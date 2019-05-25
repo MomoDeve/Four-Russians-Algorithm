@@ -16,4 +16,4 @@ void print(matrix< T >& M) - prints matrix to the standart output. Casting each 
 
 - matrix< uint64_t > preprocessMatrix(matrix< uint16_t >& M, int k, bool useLines) - creates a new matrix with k-sized vectors as elements. If useLines is true, vectors are horizontal, if false - vertical
 
-- matrix< uint16_t > multiply(matrix< uint64_t >& A, matrix< uint64_t >& B) - creates a new matrix as a result of multiply A and B matrices. A and B should be preprocessed and preprocess Vectors should be called before.
+- matrix< uint16_t > multiply(matrix< uint64_t >& A, matrix< uint64_t >& B) - creates a new matrix as a result of multiply A and B matrices. A and B should be preprocessed and preprocessVectors() should be called before.
